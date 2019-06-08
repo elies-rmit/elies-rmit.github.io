@@ -100,7 +100,7 @@ events:
 
 cv: 
   description: "Check out my festival lineup CV"
-  url: "/assets/images/projects/musicandfestivals/1.png"
+  url: "/assets/images/projects/musicandfestivals/featured.png"
 
 
 images:
