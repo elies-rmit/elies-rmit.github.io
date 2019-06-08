@@ -18,7 +18,7 @@ linkedin: "https://www.linkedin.com/in/eliesdt/"
 twitter: "https://twitter.com/thisiselies"
 github: "https://github.com/"
 
-baseurl: "/pineapple"
+baseurl: ""
 highlighter: rouge
 sass:
   sass_dir: assets/scss
