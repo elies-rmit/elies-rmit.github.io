@@ -13,20 +13,30 @@
 		<section class="project">
 			<div class="container">
 				<article>
-					<span class="h2">Project Title</span>
-					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
-					</h1>
+                    <div class="img-wrapper">
+                        <img src="{{ page.project.logo | prepend: site.baseurl }}" alt="{{page.project.title }}" />
+				    </div>
+                    <br>
+                    <p><a title="{{ page.cv.description }}" href="{{ page.cv.url }}" target="_blank" rel="nofollow">>> {{page.cv.description}}</a></p>
+                    <br>
+                    <!--
 					<span class="h2">Role</span>
 					{{ page.content }}
-					<div class="project-meta">
-						<span class="h2">Technologies</span>
-						<p>{{ page.project.tech }}</p>
-						<span class="h2">Agency</span>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
-						<span class="h2">Year</span>
-						<p>{{ page.agency.year }}</p>
-					</div>
+                    -->
+                    <span class="h2">Mission</span>
+                    <p>{{ page.project.mission }}</p>
+                    <span class="h2">Experience & Education</span>
+                    {% for experience in page.relevantexperience %}
+                    <p><a title="{{ experience.title }}" href="{{ experience.url }}" target="_blank" rel="nofollow">{{ experience.company }} // {{ experience.role }}</a></p>
+                    {% endfor %}
+                    <span class="h2">Relevant projects</span>
+                    {% for project in page.projects %}
+                    <p><a title="{{ project.title }}" href="{{ project.url }}" target="_blank" rel="nofollow">{{ project.title }} | {{ project.description }}</a></p>
+                    {% endfor %}
+                    <span class="h2">Events I have attended</span>
+                    {% for event in page.events %}
+                    <p><a title="{{ event.title }}" href="{{ event.url }}" target="_blank" rel="nofollow">{{ event.title }} ({{ event.location }})</a></p>
+                    {% endfor %}
 				</article>
 				<aside>
 					<ul>
@@ -43,14 +53,14 @@
 			<div class="container">
 				{% if page.previous and page.previous.categories contains "projects" %}
 				<a title="Previous {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
-					<span class="h2">Previous</span>
+					<span class="h2_white">Previous</span>
 					<h2>{{ page.previous.project.title }}</h2>
 				</a>
 				{% endif %}
 				{% if page.next and page.next.categories contains "projects" %}
 				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}" class="next">
-					<span class="h2">Next</span>
-					<h2>{{ page.next.project.title }}</h2>
+					<span class="h2_white">Next</span>
+                    <h2>{{ page.next.project.title }}</h2>
 				</a>
 				{% endif %}
 			</div>

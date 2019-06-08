@@ -33,6 +33,17 @@ h2,
     margin: 0 0 1rem;
     text-transform: uppercase;
 }
+.h2_white {	
+	color: $color-white;
+	display: block;
+	font-family: $font-lekton;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    line-height: 1;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+}
 
 h3,
 .h3 {

@@ -6,6 +6,38 @@
 	@include clearfix;
 }
 
+.container_image {
+    
+    display: block;
+	margin: 0 auto;
+	//max-width: 70em;
+    padding-left: 5rem;
+    padding-right: 5rem;
+	//@include clearfix;
+    
+    @media (min-width: $breakpoint-medium) {
+		//margin-bottom: 23.42rem;
+        background-image: url('FotoPerfilArtisticaRounded.png');
+        background-position: right 10rem top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-left: 10rem;
+	}
+}
+
+.container_mission {
+	display: block;
+	margin: 0 auto;
+	max-width: 70em;
+	padding: 0 5rem 5rem;
+	@include clearfix;
+    
+    @media (min-width: $breakpoint-medium) {
+		//margin-bottom: 23.42rem;
+        padding-left: 10rem;
+	}
+}
+
 .header {
 	background: $color-white;
 	padding: 3rem 0;
@@ -13,7 +45,7 @@
 
 .logo {
 	float: left;
-	font-size: 1.8rem;
+	font-size: 3.8rem;
 	font-weight: 600;
 	margin: 0;
 	line-height: 1;
@@ -24,6 +56,20 @@
 
 	a {
 		@extend .logo;
+	}
+}
+
+.index_content {
+	background: $color-white;
+	padding: 2rem 0 0;
+	//margin-bottom: 31.24rem;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	@media (min-width: $breakpoint-medium) {
+		//margin-bottom: 23.42rem;
 	}
 }
 
@@ -51,9 +97,18 @@
 	@media (min-width: $breakpoint-medium) {
 		p {
 			font-size: 2.7rem;
-			max-width: 66.66666%;
+			max-width: 50%;
 		}
 	}
+}
+    
+.mission {
+	@media (min-width: $breakpoint-medium) {
+		p {
+			font-size: 2.2rem;
+		}
+	}
+
 }
 
 .projects-list {
@@ -79,7 +134,7 @@
 	}
 
 	li {
-		margin-bottom: 3rem;
+		//margin-bottom: 3rem;
 
 		&:last-child {
 			margin-bottom: 0;
@@ -105,7 +160,7 @@
 		position: relative;
 
 		&:before {
-			content: "View Project";
+			content: "View More";
 			color: $color-white;
 			@extend .h2;
 			font-weight: 800;

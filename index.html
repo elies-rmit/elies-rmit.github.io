@@ -11,16 +11,16 @@
 </head>
 <body>
 	{% include header.html %}
-	<main class="content">
+	<main class="index_content">
 		<section class="intro">
-			<div class="container">
+			<div class="container_image">
 				<h2>About me.</h2>
 				<p>{{ site.description }}</p>
 			</div>
 		</section>
 		<section class="projects">
 			<div class="container">
-				<h2>Projects I have worked on.</h2>
+				<h2>Topics I'm passionate about:</h2>
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 						<li>
@@ -28,17 +28,38 @@
 								<div class="img-wrapper">
 									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
 								</div>
-								<span class="h2">{{ item.project.type }}</span>
-								<h3>{{ item.project.title }}</h3>
+								<!--
+                                <span class="h2">{{ item.project.type }}</span>
+								<h3>{{ item.project.tagline }}</h3>
+                                -->
 							</a>
 						</li>
 					{% endfor %}
 				</ul>
 			</div>
 		</section>
+        <section class="mission">
+            <div class="container_mission">
+                <h2>Mission.</h2>
+				<p>{{ site.description2 }}</p>
+                <p>{{ site.description3 }}</p>
+			</div>
+        </section>
+        <section class="intro">
+            <div class="container">
+                <h2>Let's connect!</h2>
+                <ul>
+                    <li><a title="Twitter" href="{{ site.linkedin }}" target="_blank">Linkedin |</a>
+                    <a title="Twitter" href="{{ site.twitter }}" target="_blank">Twitter |</a>
+                    <a title="Github" href="{{ site.github }}" target="_blank">Github</a></li>
+                </ul>
+            </div>
+		</section>
 	</main>
-	{% include footer.html %}
+	<!--
+    {% include footer.html %}
 	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
+    -->
 </body>
 </html>

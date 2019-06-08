@@ -1,14 +1,23 @@
 # User config
-author: "Pineapple"
-tagline: "Pineapple Certfied Jekyll Theme"
-description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
-keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
-linkedin: "https://www.linkedin.com/"
-twitter: "https://twitter.com/"
+author: "Elies Delgado Tamarit."
+
+tagline: "This is me."
+
+description: "My name is Elies and I'm an enthusiastic and hard-working youngster from Barcelona who is always ready to embrace new challenges, adventures and opportunities."
+
+description2: "I strongly believe we all have the potential to be creative and innovative, and I aim to prove it."
+
+description3: "I love the magic of connecting and interacting with other individuals, and I am constantly seeking for it."
+
+description4: ""
+
+keywords: "Elies Delgado Tamarit, Music, Festivals, Technology, Innovation, Marketing, Communication, Business, Entrepreneurship"
+
+email: "elies.delgado@example.com"
+linkedin: "https://www.linkedin.com/in/eliesdt/"
+twitter: "https://twitter.com/thisiselies"
 github: "https://github.com/"
 
-# Site config
 baseurl: "/pineapple"
 highlighter: rouge
 sass:
