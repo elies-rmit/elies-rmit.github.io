@@ -4,7 +4,7 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "Technology, Innovation, Entrepreneurship, Creativity"
 
 project:
   title: "TECH & INNOVATION"
@@ -33,11 +33,10 @@ projects:
   - project:
     title: "This website"
     description: "Jekyll + GitHub"
-    url: "https://github.com/arnolds/pineapple"
+    url: "https://eliesdelgadotamarit.me"
   - project:
     title: "FAQ Telegram Bot"
     description: "Python + Google Sheets"
-    url: "https://github.com/arnolds/pineapple"
   - project:
     title: "Collaborative looper for Telegram"
     description: "Python + Pure Data"
@@ -75,7 +74,7 @@ events:
 
 cv: 
   description: "Check out my telegram bot CV"
-  url: "/assets/images/projects/techandinnovation/1.png"
+  url: "http://t.me/eliesdelgadotamaritcvbot"
 
 images:
   - image:

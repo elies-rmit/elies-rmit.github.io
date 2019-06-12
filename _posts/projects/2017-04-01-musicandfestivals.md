@@ -4,7 +4,7 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "Music, Music Industry, Festival, Festivals, Music Festivals, Event Management"
 
 project:
   title: "MUSIC & FESTIVALS"
@@ -77,7 +77,6 @@ projects:
   - project:
     title: "The environmental impact of music festivals"
     description: "High School"
-    url: "https://github.com/arnolds/pineapple"
 
 events:
   - event:
@@ -100,13 +99,13 @@ events:
 
 cv: 
   description: "Check out my festival lineup CV"
-  url: "/assets/images/projects/musicandfestivals/lineup.png"
+  url: "https://eliesdelgadotamarit.me/assets/images/projects/musicandfestivals/lineup.png"
 
 
 images:
   - image:
     url: "/assets/images/projects/musicandfestivals/featured.png"
-    alt: "Red Pineapple website on tablet, mobile and desktop"
+    alt: "Elies Delgado Tamarit Music Festivals"
 
 ---
 <p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>

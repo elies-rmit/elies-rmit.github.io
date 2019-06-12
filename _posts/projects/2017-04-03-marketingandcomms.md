@@ -4,7 +4,7 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "Marketing, Communication, Design"
 
 project:
   title: "MARKETING & COMMS"
@@ -53,7 +53,7 @@ projects:
   - project:
     title: "This website"
     description: "promoting myself"
-    url: "https://github.com/arnolds/pineapple"
+    url: "https://eliesdelgadotamarit.met"
 
 events:
   - event:
@@ -75,7 +75,7 @@ events:
 
 cv: 
   description: "Check out my instagram CV"
-  url: "/assets/images/projects/musicandfestivals/1.png"
+  url: "https://www.instagram.com/cvelies/"
 
 images:
   - image:
